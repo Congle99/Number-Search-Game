@@ -1,0 +1,82 @@
+.container{
+    position: relative;
+}
+.header{
+    position: relative;
+    padding: 10px;
+    width: 150px;
+    height: 75px;
+    border: 5px solid black;
+}
+.diem{
+    display: block;
+}
+.timer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.timerDisplay{
+    display: block;
+}
+.draw {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    border: 5px solid black;
+    background-color: beige;
+    z-index: -1;
+}
+.number {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    text-align: center;
+    font-weight: 600;
+    line-height: 50px;
+    background-color: wheat;
+    z-index: 2;
+}
+.number.clicked {
+    background-color: yellow;
+}
+.content{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #c948b8;
+    border: 5px solid black;
+    border-radius: 25px;
+    top: calc(50% - 100px);
+    left: calc(50% - 150px);
+}
+
+.score{
+    padding-left: 10px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 150px);
+    line-height: 200px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.name{
+    width: 200px;
+    position: absolute;
+    top: calc(15%);
+    left: calc(50% - 100px);
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Lobster', cursive;
+}
+.action{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    background-color: aqua;
+    border-radius: 25px;
+    bottom: calc(15% - 20px);
+    left: calc(50% - 60px);
+}
